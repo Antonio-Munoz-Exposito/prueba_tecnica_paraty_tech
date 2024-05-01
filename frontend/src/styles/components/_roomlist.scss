@@ -1,0 +1,44 @@
+.roomlist_card{
+    display:block;
+    width:33%;
+    margin-right:2%;
+    border-radius:8px;
+    background:white;
+    float:left;
+    padding:0.5em;
+
+    img{
+        display:block;
+        width:100%;
+        border-radius:8px;
+        margin-bottom:0.5em;
+    }
+    
+    h3{
+        color:$primary;
+        font-weight: bold;
+        line-height: 1.5em;
+    }
+
+    p{
+        color:$ternary;
+        line-height: 1.5em;
+        height:80px;
+    }
+
+    a{
+        text-decoration:none;
+    }
+
+    button{
+        display:block;
+        width:100%;
+        border-radius:8px;
+        line-height:2.5em;
+        border:none;
+        background:$primary;
+        color:white;
+        font-size:1em;
+        cursor:pointer;
+    }
+}

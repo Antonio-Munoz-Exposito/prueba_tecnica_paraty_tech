@@ -1,0 +1,60 @@
+.roomdetails_container{
+    overflow:hidden;
+}
+.roomdetails_img_cont{
+    float:left;
+    width:50%;
+    padding-right:1em;
+
+    img{
+        display:auto;
+        width:100%;
+        border-radius:8px;
+    }
+}
+.roomdetails_data_cont{
+    float:left;
+    width:50%;
+    padding-left:1em;
+
+    h2{
+        font-size:1.2em;
+        font-weight:bold;
+        color:$primary;
+        line-height:1.5em;
+    }
+
+    p{
+        color:$ternary;
+        line-height:1.5em;
+        margin-bottom:1em;
+    }
+
+    h3{
+        font-weight: bold;
+        color:$secondary;
+        line-height:2em;
+    }
+
+    table{
+        border-collapse: collapse;
+    }
+
+    table th {
+        background:$primary;
+        color:white;
+        padding:5px 3px;
+    }
+
+    table th small{
+        font-weight:normal;
+        font-size:0.8em;
+    }
+
+    table td{
+        border:0 solid #eee;
+        border-bottom-width:1px;
+        padding:5px 3px;
+        color:$ternary;
+    }
+}

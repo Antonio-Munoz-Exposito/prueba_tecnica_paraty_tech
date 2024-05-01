@@ -1,0 +1,13 @@
+.navbar_menu{
+    float:left;
+    margin-left:3em;
+    li{
+        display:inline-block;
+        padding:0.4em 0.5em;
+    }
+    li a{
+        text-decoration:none;
+        font-weight:bold;
+        color:$ternary;
+    }
+}

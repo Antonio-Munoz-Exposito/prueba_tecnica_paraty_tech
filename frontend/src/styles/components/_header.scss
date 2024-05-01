@@ -1,0 +1,14 @@
+.header_header{
+    background:$bg2;
+}
+.header_container{
+    overflow:hidden;
+    padding:1em;
+    margin-bottom:1em;
+
+    img{
+        float:left;
+        width:100%;
+        max-width:250px;
+    }
+}

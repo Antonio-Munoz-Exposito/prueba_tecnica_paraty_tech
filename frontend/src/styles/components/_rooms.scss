@@ -1,0 +1,40 @@
+.rooms_header{
+
+    h1{
+        color: $primary;
+        font-weight:bold;
+        font-size:1.8em;
+        line-height:1.5em;
+    }
+
+    
+}
+
+.rooms_intro{
+    h2{
+        font-weight:bold;
+        color: $secondary;
+        line-height:1.5em;
+
+    }
+    p{
+        color:$ternary;
+        margin-bottom:2em;
+        line-height:1.5em;
+
+    }
+}
+
+.rooms_roomlist_container{
+    background-color: $bg1;
+    overflow:hidden;
+    padding:1em 2em 2em 2em;
+
+    h2{
+        color:$secondary;
+        font-weight: bold;
+        font-size: 1.2em;
+        line-height: 3em;
+    }
+}
+
